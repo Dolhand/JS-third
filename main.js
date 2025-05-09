@@ -27,13 +27,13 @@ console.log(defUpperStr());
 
 
 function evenFn(n) {
-    const nubmers = [];
-    for (let i = 1; i <= n; i++) {
-        if (i % 2 === 0) {
-            nubmers.push(i);
+    const numbers = [];
+    for (let i = 0; i <= n; i++) {
+        if (i !== 0 && i % 2 === 0) {
+            numbers.push(i);
         }
     }
-    return nubmers;
+    return numbers;
 }
 
 console.log(evenFn(10))
