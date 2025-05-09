@@ -43,7 +43,7 @@ console.log(evenFn(22))
 
 
 function weekFn(n) {
-    if(typeof n !== 'number' || !Number.isInteger(n) || n < 1 || n > 8) {
+    if(typeof n !== 'number' || !Number.isInteger(n) || n < 1 || n > 7) {
         return null;
     }
 
